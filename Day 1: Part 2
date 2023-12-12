@@ -26,9 +26,6 @@ for i in range(1,10):
 for cv in cal_value:
     try: 
         total_val += int(numWordDic[re.search(numListRegex,cv).group()])*10
-    except AttributeError:
-        pass
-    try:
         total_val += int(numWordDic[re.search(numListRegex,cv[::-1]).group()])
     except AttributeError:
         pass
