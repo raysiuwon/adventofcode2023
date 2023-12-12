@@ -1,5 +1,5 @@
 import re
-path = '/home/ray/Documents/programming/python/coding problems/advent of code/day1_input.txt'
+path = '../day1_input.txt'
 with open(path,'r') as file:
     cal_value = file.readlines()
 total_val = 0
