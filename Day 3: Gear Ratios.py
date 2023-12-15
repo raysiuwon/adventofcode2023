@@ -1,6 +1,6 @@
 import re
 
-path = '/home/ray/Documents/programming/python/coding problems/advent of code/day3_input.txt'
+path = '../day3_input.txt'
 
 with open(path,'r') as file:
     lines = file.readlines()
