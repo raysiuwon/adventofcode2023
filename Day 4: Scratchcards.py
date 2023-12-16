@@ -1,6 +1,6 @@
 from collections import Counter
 
-path = '/home/ray/Documents/programming/python/coding problems/advent of code/day4_input.txt'
+path = '../advent of code/day4_input.txt'
 cards = open(path).read().splitlines()
 
 points = 0
